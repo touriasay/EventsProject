@@ -1,0 +1,46 @@
+
+<body>
+<form>
+  <label for="nom">Nom de l'événement :</label>
+  <input type="text" id="nom" name="nom">
+
+  <label for="acronyme">Acronyme :</label>
+  <input type="text" id="acronyme" name="acronyme">
+
+  <label for="lieu">Lieu :</label>
+  <input type="text" id="lieu" name="lieu">
+
+  <button type="submit">Rechercher</button>
+</form>
+
+<table>
+  <thead>
+  <tr>
+    <th>Acronyme de l'événement</th>
+    <th>Nom de l'événement</th>
+    <th>Lieu de l'événement</th>
+    <th></th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr>
+    <td>AL3C2019</td>
+    <td>Forum AL3C 2019</td>
+    <td>123 Rue des Événements, Paris</td>
+    <td><button routerLink="/description-evenement">Consulter détails</button></td>
+  </tr>
+  <tr>
+    <td>SWC2020</td>
+    <td>Software Conference 2020</td>
+    <td>456 Main Street, San Francisco</td>
+    <td><button routerLink="/description-evenement">Consulter détails</button></td>
+  </tr>
+  <tr>
+    <td>NEB2019</td>
+    <td>Nature Exploration 2019</td>
+    <td>789 Forest Lane, Vancouver</td>
+    <td><button routerLink="/description-evenement">Consulter détails</button></td>
+  </tr>
+  </tbody>
+</table>
+</body>

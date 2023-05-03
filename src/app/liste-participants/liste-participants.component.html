@@ -1,0 +1,25 @@
+<div class="wrapper">
+  <h1>Forum AL3C 2019 - Liste des participants</h1>
+  <table>
+    <thead>
+    <tr>
+      <th>Nom</th>
+      <th>Prénom</th>
+      <th>Action</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let participant of participants">
+      <td>{{ participant.nom }}</td>
+      <td>{{ participant.prenom }}</td>
+      <td><button>Consulter détails</button></td>
+    </tr>
+    </tbody>
+  </table>
+  <button class="edit-button" (click)="toggleEdit()">Editer liste participants</button>
+</div>
+
+<style>
+  @import url('./liste-participants.component.css');
+
+</style>

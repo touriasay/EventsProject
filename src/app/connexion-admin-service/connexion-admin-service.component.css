@@ -1,0 +1,59 @@
+body {
+  /*background-image: url('images/fond.jpg');*/
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-color: #0f1c34;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 50px;
+}
+
+form {
+  margin: 50px auto;
+  width: 50%;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: rgba(89, 158, 217, 0.8);
+  transition: all 0.3s ease; /* Ajout d'une transition */
+}
+
+form:hover {
+  background-color: rgba(19, 30, 143, 0.88); /* Changement de la nuance de fond */
+}
+
+input[type=text], input[type=password] {
+  display: block;
+  margin: 10px 0;
+  padding: 10px;
+  width: 98%;
+  border-radius: 5px;
+  border: none;
+}
+
+input[type=submit] {
+  display: block;
+  margin: 10px auto;
+  padding: 10px 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  border: none;
+  color: #0f1c34;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+input[type=submit]:hover {
+  background-color: #0f1c34;
+  color: #fff;
+  transform: scale(1.1);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
